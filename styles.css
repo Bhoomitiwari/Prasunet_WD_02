@@ -5,6 +5,7 @@ body, html {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa; /* Light gray background */
     color: #333; /* Default text color */
+    height: 100vh;
 }
 
 .page-container {
@@ -67,6 +68,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 50px;
+
 }
 
 /* Section styles */
@@ -167,4 +170,23 @@ form button:hover {
 
 .stopwatch .laps li {
     margin-bottom: 5px;
+}
+
+.social-icons a{
+    color: whitesmoke;
+}
+.social-icons :hover{
+    color: blueviolet;
+}
+#name{
+    border-radius: 10px;
+}
+#email{
+    border-radius: 10px;
+}
+#message{
+    border-radius: 20px;
+}
+#submit{
+    margin-top: 0px;
 }
