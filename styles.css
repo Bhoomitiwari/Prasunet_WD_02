@@ -1,0 +1,170 @@
+/* Global styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Default text color */
+}
+
+.page-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for container */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Header styles */
+header {
+    background-color: #343a40; /* Dark background for header */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto; /* Pushes the nav-menu to the left */
+}
+
+.logo h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Aligns menu items to the right */
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-menu li a:hover {
+    color: #ffc107; /* Yellow color on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Section styles */
+.section {
+    padding: 20px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section p {
+    line-height: 1.6;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label,
+form textarea,
+form input[type="text"],
+form input[type="email"],
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Stopwatch styles */
+.stopwatch-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust height as needed */
+}
+
+.stopwatch {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.stopwatch .controls {
+    margin-bottom: 20px;
+}
+
+.stopwatch .controls button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.stopwatch .display {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.stopwatch .laps {
+    text-align: left;
+}
+
+.stopwatch .laps h3 {
+    margin-bottom: 10px;
+}
+
+.stopwatch .laps ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.stopwatch .laps li {
+    margin-bottom: 5px;
+}
